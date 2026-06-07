@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Navigasi Menu Biru Muda Persis Seperti Gambar Soal */
+nav {
+    background-color: #87cefa; /* Warna biru muda langit */
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    border-bottom: 1px solid #70b5ff;
+}
+
+nav a {
+    display: block;
+    color: #2e2e2e;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #b0c4de;
+}
+
+
+.line-separator {
+    width: 80%;
+    margin: 30px auto;
+    border-top: 1px solid #cccccc;
+}
+
+.content-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.content-section p {
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+}
